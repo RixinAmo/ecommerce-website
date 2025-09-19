@@ -88,7 +88,11 @@
     padding: 10px 20px;
   }
 
+<<<<<<< HEAD
 
+=======
+  /* Hide menu by default */
+>>>>>>> 3cd613e60ba8b6b0942f6771ae0061757699b55a
   .nav-menu {
     display: none;
     flex-direction: column;
@@ -101,16 +105,36 @@
     gap: 20px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   }
+<<<<<<< HEAD
   .nav-menu.active {
     display: flex;
   }
+=======
+
+  /* Show menu when active */
+  .nav-menu.active {
+    display: flex;
+  }
+
+  /* Hamburger visible on mobile */
+>>>>>>> 3cd613e60ba8b6b0942f6771ae0061757699b55a
   .nav-hamburger {
     display: block;
     cursor: pointer;
   }
+<<<<<<< HEAD
   .nav-hamburger svg {
     color: #333;
   }
+=======
+
+  /* Hide hamburger on desktop */
+  .nav-hamburger svg {
+    color: #333;
+  }
+
+  /* Hide login/cart button text on very small screens */
+>>>>>>> 3cd613e60ba8b6b0942f6771ae0061757699b55a
   .nav-login-cart button {
     width: 100px;
     font-size: 14px;

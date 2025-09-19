@@ -58,7 +58,11 @@
   height: auto;
 }
 
+<<<<<<< HEAD
 
+=======
+/* --- Responsive Styles --- */
+>>>>>>> 3cd613e60ba8b6b0942f6771ae0061757699b55a
 @media (max-width: 1024px) {
   .hero-left {
     padding-left: 40px;

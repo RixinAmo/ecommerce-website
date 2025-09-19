@@ -18,10 +18,24 @@
     font-size: 40px;
     font-weight: 700;
 }
+<<<<<<< HEAD
 
 .footer-links {
   display: flex;
   flex-wrap: wrap; 
+=======
+/* .footer-links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #252525;
+    font-size: 20px;
+} */
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap; /* allow wrapping */
+>>>>>>> 3cd613e60ba8b6b0942f6771ae0061757699b55a
   justify-content: center;
   list-style: none;
   gap: 40px;
@@ -42,7 +56,16 @@
     display: flex;
     gap: 15px;
 }
+<<<<<<< HEAD
 
+=======
+/* .footer-icon-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+} */
+>>>>>>> 3cd613e60ba8b6b0942f6771ae0061757699b55a
  .footer-icon-container {
   padding: 10px;
   border: 1px solid #ebebeb;

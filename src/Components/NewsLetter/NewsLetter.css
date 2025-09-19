@@ -34,7 +34,18 @@
   border: 1px solid #e3e3e3;
   overflow: hidden;
 }
+<<<<<<< HEAD
 
+=======
+/* .newsletter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-size: 16px;
+} */
+>>>>>>> 3cd613e60ba8b6b0942f6771ae0061757699b55a
  .newsletter input {
   flex: 1; /* auto-adjust width */
   padding: 0 15px;

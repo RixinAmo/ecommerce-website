@@ -27,6 +27,11 @@
     flex-wrap: wrap; 
     justify-content: center;
     gap: 30px;
+<<<<<<< HEAD
+=======
+    /* width: 100%;
+    max-width: 1200px; */
+>>>>>>> 3cd613e60ba8b6b0942f6771ae0061757699b55a
 }
 
 @media (max-width: 1024px) {
@@ -43,7 +48,11 @@
     font-size: 26px;
   }
   .popular-item {
+<<<<<<< HEAD
     flex-direction: column;
+=======
+    flex-direction: column; /* stack items */
+>>>>>>> 3cd613e60ba8b6b0942f6771ae0061757699b55a
     align-items: center;
   }
 }

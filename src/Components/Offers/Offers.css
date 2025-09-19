@@ -71,7 +71,11 @@
 
 @media (max-width: 768px) {
   .offers {
+<<<<<<< HEAD
     flex-direction: column; 
+=======
+    flex-direction: column; /* ✅ stack text + image */
+>>>>>>> 3cd613e60ba8b6b0942f6771ae0061757699b55a
     align-items: center;
     text-align: center;
     width: 100%;
@@ -100,12 +104,22 @@
     font-size: 14px;
   }
   .offers-right {
+<<<<<<< HEAD
     width: 100%; 
     justify-content: center;
   }
 
   .offers-right img {
     max-width: 80%;
+=======
+    width: 100%;              /* ✅ fix overflow */
+    /* display: flex; */
+    justify-content: center;  /* ✅ center image */
+  }
+
+  .offers-right img {
+    max-width: 80%;  /* ✅ keep inside screen */
+>>>>>>> 3cd613e60ba8b6b0942f6771ae0061757699b55a
     height: auto;
   }
 }
